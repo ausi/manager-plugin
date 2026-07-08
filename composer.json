@@ -7,23 +7,38 @@
         {
             "name": "Andreas Schempp",
             "homepage": "https://github.com/aschempp"
+        },
+        {
+            "name": "Contao Community",
+            "homepage": "https://contao.org/contributors"
+        }
+    ],
+    "homepage": "https://contao.org",
+    "support": {
+        "forum": "https://community.contao.org",
+        "source": "https://github.com/contao/manager-plugin",
+        "docs": "https://docs.contao.org"
+    },
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://to.contao.org/donate"
         }
     ],
     "require": {
         "php": "^7.1 || ^8.0",
         "composer-plugin-api": "^1.7 || ^2.0",
-        "symfony/config": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0",
-        "symfony/dependency-injection": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0",
-        "symfony/filesystem": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0",
-        "symfony/http-kernel": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0",
-        "symfony/routing": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0"
+        "symfony/config": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/dependency-injection": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/filesystem": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/http-kernel": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/routing": "^3.3 || ^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
         "ext-zip": "*",
         "bamarni/composer-bin-plugin": "^1.4",
         "composer/composer": "^1.7 || ^2.0",
         "contao/core-bundle": "^4.4 || ^5.0",
-        "php-http/guzzle6-adapter": "^1.1",
         "phpunit/phpunit": "^8.5 || ^9.3",
         "symfony/phpunit-bridge": "^3.4.40 || ^4.0 || ^5.0 || ^6.0 || ^7.0",
         "webmozart/path-util": "^2.0"
